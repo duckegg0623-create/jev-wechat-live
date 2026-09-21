@@ -1,0 +1,8 @@
+# 核心依赖
+httpx>=0.27        # 调 OpenRouter Decisions API
+pywin32>=306       # 浮层跟随微信窗口（win32gui），仅 Windows
+
+# tkinter 是 Python 自带，不用装（Windows 官方安装包默认包含）
+
+# 注意：微信数据库解密（密钥提取）不在本仓库内，
+# 需要单独用 https://github.com/ylytdeng/wechat-decrypt

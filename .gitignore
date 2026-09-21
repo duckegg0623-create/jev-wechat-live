@@ -1,0 +1,25 @@
+# ---- 配置文件：含 API key 和本机路径，绝不入库 ----
+config.json
+config.local.json
+
+# ---- 解密出来的微信数据库、缓存、密钥 ----
+data/
+decrypted/
+*.dec.db
+all_keys.json
+
+# ---- 日志：会包含真实聊天原文 ----
+*.log
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

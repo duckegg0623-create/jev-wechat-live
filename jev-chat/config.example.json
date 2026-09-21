@@ -1,0 +1,8 @@
+{
+  "openrouter_api_key": "",
+  "proxy": "http://127.0.0.1:7897",
+  "endpoint": "https://openrouter.ai/api/alpha/decisions",
+  "model": "~typesafe/jev-latest",
+  "context_n": 6,
+  "workers": 8
+}

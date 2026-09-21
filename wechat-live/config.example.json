@@ -1,0 +1,31 @@
+{
+  "targets": [],
+
+  "me": "wxid_你的wxid",
+  "db_dir": "C:\\Users\\<用户名>\\Documents\\xwechat_files\\<wxid_xxx>\\db_storage",
+  "keys_file": "C:\\path\\to\\wechat-decrypt\\all_keys.json",
+
+  "poll_ms": 200,
+  "warmup_count": 100,
+  "context_chars": 150,
+  "prev_chars": 800,
+  "session_gap_s": 7200,
+  "interpret_self": false,
+
+  "merge_gap_s": 15.0,
+  "silence": {
+    "default": 1.5,
+    "end_punct": 0.6,
+    "mid_punct": 2.0,
+    "short": 2.2
+  },
+
+  "wechat_window_class": "Qt51514QWindowIcon",
+  "overlay": {
+    "side": "right",
+    "offset_x": 14,
+    "offset_y": 0,
+    "width": 400,
+    "alpha": 0.97
+  }
+}
